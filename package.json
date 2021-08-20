@@ -1,0 +1,21 @@
+{
+  "name": "sharetasteapi",
+  "version": "1.0.0",
+  "description": "In this API we are performing CRUD Operations on Recipes, We will use this API in our current Minor Project Which is titled as Share Taste, We will Use of axios for fetching data from API and passing requests from Front-End.",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon ./src/config"
+  },
+  "keywords": [],
+  "author": "Jalaj Gaur",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "dotenv": "^9.0.2",
+    "express": "^4.17.1",
+    "joi": "^17.4.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.12.9"
+  }
+}
